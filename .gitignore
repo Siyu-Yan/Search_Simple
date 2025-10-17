@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# venv & IDE
+.venv/
+.env/
+.env*/
+.vscode/
+.idea/
+
+# Data & Artifacts
+data/
+*.npy
+*.npz
+*.faiss
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.zip
+*.tar
+*.gz
+
+# Logs
+logs/
+*.log

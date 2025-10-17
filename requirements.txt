@@ -1,0 +1,14 @@
+# Core
+torch>=2.4.1             # 解决 CVE-2025-32434，支持 safetensors
+transformers>=4.44.0
+accelerate>=0.33.0
+safetensors>=0.4.5
+
+# Utilities
+Pillow>=10.0.0
+numpy>=1.25.0
+tqdm>=4.66.0
+
+# Optional (for dataset download)
+gdown>=5.2.0
+beautifulsoup4>=4.12.2
